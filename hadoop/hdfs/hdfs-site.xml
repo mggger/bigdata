@@ -30,6 +30,11 @@
   		<value>master:8020</value>
 	</property>
 	<property>
+		<name>dfs.namenode.datanode.registration.ip-hostname-check</name> 
+		<value>false</value>
+	</property>
+
+	<property>
   		<name>dfs.namenode.rpc-address.mycluster.nn2</name>
   		<value>node2:8020</value>
 	</property>
